@@ -26,7 +26,7 @@
 	</header>
 
 	<hr />
-
+<img src="https://scontent.fflr1-1.fna.fbcdn.net/v/t1.6435-9/50201664_10215577295278753_6586040389424119808_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1208&ctp=s1200x1208&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=bntPHsKK11kQ7kNvwFwVIkJ&_nc_oc=AdplHFQSffvzXgF11fs7DmkyAXWyf5IkcCXZG2gRb6w69J8oq5IaO2WMsiwoP6DTSo8&_nc_zt=23&_nc_ht=scontent.fflr1-1.fna&_nc_gid=bH9LKV2L1t8QB92ylj7z7g&_nc_ss=7b2a8&oh=00_AQMWjNsetgNTAl6ylAH2-Tmu-xtuQ35JlGK5ENsGMFg7vA&oe=6AEC5368" alt="Immagine di Alessandro Lainà" width="400" height="400" />
 	<p>
 	<h2 id="chi-sono">Chi sono</h2>
 	Mi chiamo Alessandro Lainà e oggi ho iniziato il corso con <strong>Epicode</strong> per diventare <b>Full-Stack
@@ -35,8 +35,10 @@
 	più di una volta. Sono un
 	grande amante della cinematografia e dell'industria videoludica. Ho precedenti esperienze lavorative come
 	<b>grafico pubblicitario</b>, come <b>guardia notturna</b>, e per la maggior parte in <b>ristorazione e banchi
-		gastronomia.</b>
+		gastronomia.</b> Credo di essere simpatico, ma <i>la maggior parte delle volte non lo sono</i>, hai un amico che
+	fa battute e nessuno le capisce o perché sono brutte o perché non hanno un riferimento per capirle? Ecco.
 	</p>
+	<a href="#inizio">Torna in cima</a>
 	<main>
 		<h2 id="competenze">Competenze</h2>
 		<p>
@@ -70,20 +72,9 @@
 				</ul>
 			</li>
 		</ol>
-
+		<a href="#inizio">Torna in cima</a>
 		<hr />
-		<h2 id="progetti">Progetti</h2>
-
-		<p>Questa è la lista dei miei progetti:</p>
-		<h3>Presentazione Personale</h3>
-		<p>Qua sotto è linkata la mia presentazione personale, che rimanda a questa pagina.</p>
-		<a href="#inizio">Torna in cima per leggere di nuovo</a>
-
-		<p>Momentaneamente non ho altri progetti da mostrare, ma conto di aggiungerne altri in futuro.</p>
-
-		<a href="https://github.com/Alw4ystired">Vai a scoprire il mio account GitHub!</a>
-		<hr />
-		<h2 id="esperienze">Esperienze</h2>
+			<h2 id="esperienze">Esperienze</h2>
 
 		<table>
 			<caption>
@@ -121,31 +112,84 @@
 				</tr>
 			</tfoot>
 		</table>
+		<br />
 		<a href="#inizio">Torna in cima</a>
+		<hr/>
+		<h2 id="progetti">Progetti</h2>
+
+		<p>Questa è la lista dei miei progetti:</p>
+		<h3>Presentazione Personale</h3>
+		<p>Qua sotto è linkata la mia presentazione personale, che rimanda a questa pagina.</p>
+		<a href="#inizio">Torna in cima per leggere di nuovo</a>
+
+		<p>Momentaneamente non ho altri progetti da mostrare, ma conto di aggiungerne altri in futuro.</p>
+
+		<a href="https://github.com/Alw4ystired">Vai a scoprire il mio account GitHub!</a>
+		<br /><br />
+		<div>
+		<a href="#inizio">Torna in cima</a>
+		</div>	
 	</main>
-
 	<hr />
-
 	<footer>
 		<aside>
 			<h2 id="contatti">Contatti</h2>
 			<form>
-				<p>
-					Contattami pure, ho il telefono perennemente in vibrazione, buona fortuna.
-				</p>
-				<div>
-					<label for="name">Nome</label>
-				</div>
-				<input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" required />
+				<fieldset>
+					<legend>Contattami pure, ho il telefono perennemente in vibrazione e non vedo mai chiamate ed email
+						in
+						tempo, buona fortuna (per me).
+					</legend>
+					<br />
+
+					<div>
+						<label for="name">Nome</label>
+					</div>
+					<input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" required />
+					<div>
+						<label for="email">Email</label>
+					</div>
+					<input type="email" name="email" id="email" placeholder="Inserisci la tua email" required />
+					<div>
+						<label for="reason">Motivo del contatto</label>
+					</div>
+					<select id="reason" name="reason">
+						<option value="" selected></option>
+						<option value="PL">Proposta lavorativa</option>
+						<option value="PC">Proposta di collaborazione</option>
+						<option value="CA">Un bel caffè e due chiacchiere</option>
+					</select>
+					<div>
+						<label for="date">Data preferita per la risposta (che non rispetterò)</label>
+					</div>
+					<input type="date" name="date" id="date" />
+					<div>
+						<label for="message">Lascia scritto un messaggio (giuro almeno questo lo leggo)</label>
+					</div>
+					<textarea name="message" id="message" placeholder="Scrivi tutto vai"></textarea>
+					<br />
+					<input type="checkbox" id="sure-thing" name="sure-thing" />
+					<label for="sure-thing">Se spunti questo avrai più possibilità di ricevere una risposta</label>
+					<br />
+
+					<input type="checkbox" id="realCheckbox" name="realCheckbox" />
+					<label for="realCheckbox">Se li spunti entrambi raddoppi le possibilità</label>
+					<br />	<br />
+				
+					<button type="reset">Pulsante Funzionante, giuro non cancella tutto</button>
+					<button type="submit" id="sendForm">Dai questo è quello vero</button>
+				
+				</fieldset>
 			</form>
+			<a href="#inizio">Torna in cima</a>
 
 			<p>©Alessandro Lainà, tutti i diritti riservati (forse)</p>
-			<i>Azienda XYZ - via Italia 15 - 20900 Monza</i>
-			<nav>
-				<a href="javascript:void(0);">Informativa privacy</a>
+			<i>Azienda XYZ - Via Le Mani dal Naso 14 - 57023 Cecina (LI)</i>
+			<nav <a href="javascript:void(0);">Informativa privacy</a>
 				<a href="javascript:void(0);">Informativa cookies</a>
 				<a href="https://github.com/Alw4ystired">Profilo GitHub troppo vuoto</a>
 			</nav>
+			<br/>
 			<a href="#inizio">Torna in cima</a>
 		</aside>
 	</footer>
