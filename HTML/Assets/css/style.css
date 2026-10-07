@@ -42,6 +42,10 @@ h2 {
     color: #1F3D7A
 }
 
+label {
+    color:  #1F3D7A;
+}
+
 .github-link:hover {
     color: red;
 }
