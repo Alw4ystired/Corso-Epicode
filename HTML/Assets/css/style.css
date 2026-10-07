@@ -1,29 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    color: #ac1212
+    color: #ac1212;
 }
 
 .fullStack {
     font-weight: bold;
 }
 
-#inizio {
-    align-items: center;
-    background-image: url("https://images.pexels.com/photos/11912754/pexels-photo-11912754.jpeg");
-}
-
-.main-title {
-    font-size: 1.5em;
-    color: #F44A4A;
-    text-align: center;
-
-}
-
 .inizio {
     text-align: center;
+    font-size: 1.2em;
+    color: #F44A4A;
+    background-image: url('../img/pexels-natasha-filippovskaya-2203043-11912754.jpg');
+
+}
+
+.mainTitle {
+    color: #ac1212;
+}
+
+.toscana {
+    font-style: italic;
 }
 
 .topLinks a {
@@ -31,7 +33,7 @@ h1 {
 }
 
 .topLinks a:hover {
-    color: white
+    color: white;
 }
 
 .botLinks a:hover {
@@ -39,11 +41,12 @@ h1 {
 }
 
 h2 {
-    color: #1F3D7A
+    color: #1F3D7A;
 }
 
+
 label {
-    color:  #1F3D7A;
+    color: #1F3D7A;
 }
 
 .github-link:hover {
@@ -52,16 +55,41 @@ label {
 
 #erase {
     color: white;
-    background-color: hsl(220, 60%, 30%)
+    background-color: hsl(220, 60%, 30%);
 }
+
 #sendForm {
     color: white;
-    background-color: hsl(220, 60%, 30%)
+    background-color: hsl(220, 60%, 30%);
 }
 
 #sendForm:hover {
-    background-color: hsl(220, 60%, 45%)
+    background-color: hsl(220, 60%, 45%);
 }
+
 #erase:hover {
-    background-color: hsl(220, 60%, 45%)
+    background-color: hsl(220, 60%, 45%);
+}
+
+input:focus {
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+textarea:focus {
+    background-color: black;
+    color: white;
+}
+
+.botContacts {
+    text-align: center;
+    color: white;
+    background-color: #172136;
+}
+
+.font {
+    font-family:  'Helvetica Neue', Arial, sans-serif;
+    
 }
