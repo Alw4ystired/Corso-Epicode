@@ -1,4 +1,12 @@
-header {
+html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+} 
+
+h1 {
+    color:#ac1212
+}
+
+#inizio {
     align-items: center;
     background-image: url("https://images.pexels.com/photos/11912754/pexels-photo-11912754.jpeg");
 }
@@ -8,4 +16,28 @@ header {
     color: #F44A4A;
     text-align: center;
   
+}
+
+.inizio {
+    text-align: center;
+}
+
+.topLinks a {
+ color: hsl(67, 98%, 26%);
+}
+
+.topLinks a:hover {
+    color: white
+    }
+
+    .botLinks a:hover {
+        color: red;
+    }
+
+h2 {
+    color: #1F3D7A
+}
+
+.github-link:hover {
+    color: red;
 }
