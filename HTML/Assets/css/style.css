@@ -1,9 +1,13 @@
 html {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-} 
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
 
 h1 {
-    color:#ac1212
+    color: #ac1212
+}
+
+.fullStack {
+    font-weight: bold;
 }
 
 #inizio {
@@ -15,7 +19,7 @@ h1 {
     font-size: 1.5em;
     color: #F44A4A;
     text-align: center;
-  
+
 }
 
 .inizio {
@@ -23,16 +27,16 @@ h1 {
 }
 
 .topLinks a {
- color: hsl(67, 98%, 26%);
+    color: hsl(67, 98%, 26%);
 }
 
 .topLinks a:hover {
     color: white
-    }
+}
 
-    .botLinks a:hover {
-        color: red;
-    }
+.botLinks a:hover {
+    color: red;
+}
 
 h2 {
     color: #1F3D7A
@@ -40,4 +44,20 @@ h2 {
 
 .github-link:hover {
     color: red;
+}
+
+#erase {
+    color: white;
+    background-color: hsl(220, 60%, 30%)
+}
+#sendForm {
+    color: white;
+    background-color: hsl(220, 60%, 30%)
+}
+
+#sendForm:hover {
+    background-color: hsl(220, 60%, 45%)
+}
+#erase:hover {
+    background-color: hsl(220, 60%, 45%)
 }
