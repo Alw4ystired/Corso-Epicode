@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*,
-*::before,
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+
 *::after {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+*::before {
     box-sizing: border-box;
     overflow: auto;
 }
@@ -16,7 +24,7 @@ body {
 
 main,
 footer {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -42,7 +50,7 @@ h1 {
     text-align: center;
     font-style: italic;
     text-shadow:  
-		-2px -2px 4px red;
+		-2px -2px 4px rgb(0, 0, 0);
 }
 
 
@@ -53,9 +61,10 @@ h1 {
 .inizio {
     text-align: center;
     font-size: 1.2em;
-    color: #F44A4A;
-    background-image: url('../img/pexels-natasha-filippovskaya-2203043-11912754.jpg');
-
+    color: #c70707;
+    text-shadow: 1px 1px 2px black;
+    background-image: url('https://images.pexels.com/photos/9455414/pexels-photo-9455414.png');
+    background-size: cover;
 }
 
 main {
@@ -93,18 +102,18 @@ main {
     color: white;
 }
 
-.topLinks nav ul {
+.topLinks ul {
     width: 50%;
 	display: inline-block;
 }
 
-.topLinks nav ul li {
+.topLinks ul li {
 	list-style-type: none;
 	display: inline;
 }
 
-.topLinks nav ul li:not(:last-child) {
-	margin-right: 30px;
+.topLinks ul li:not(:last-child) {
+	margin-right: 10px;
 }
     
 
