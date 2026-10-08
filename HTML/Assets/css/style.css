@@ -1,7 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+main, footer {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+tfoot tr td {
+    text-align: center;
 }
 
 h1 {
@@ -62,7 +93,30 @@ h2 {
     color: #1F3D7A;
 }
 
+.imageContaineralso p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F3D7A;
+    font-family: 'Times New Roman', Times, serif;
 
+}
+
+.rectangle1 {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(241, 239, 239, 0.52);
+    padding: 25px;
+    margin: 20px;
+}
+
+.rectangle2 {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(241, 239, 239, 0.52);
+    padding: 25px;
+    margin-top: 20px;
+}
 
 .chi-sono h2 {
 
