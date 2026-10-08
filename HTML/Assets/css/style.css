@@ -14,10 +14,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main, footer {
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 30px;
+main,
+footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 
@@ -36,8 +37,14 @@ tfoot tr td {
 }
 
 h1 {
-    color: #ac1212;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    text-shadow:  
+		-2px -2px 4px red;
 }
+
 
 .fullStack {
     font-weight: bold;
@@ -79,11 +86,27 @@ main {
 
 .topLinks a {
     color: hsl(67, 98%, 26%);
+    list-style-type: none
 }
 
 .topLinks a:hover {
     color: white;
 }
+
+.topLinks nav ul {
+    width: 50%;
+	display: inline-block;
+}
+
+.topLinks nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.topLinks nav ul li:not(:last-child) {
+	margin-right: 30px;
+}
+    
 
 .botLinks a:hover {
     color: red;
@@ -102,20 +125,14 @@ h2 {
 
 }
 
-.rectangle1, .rectangle2 {
+.rectangle1,
+.rectangle2 {
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: rgba(241, 239, 239, 0.52);
     padding: 25px;
     margin-top: 20px;
-} {
-    border: 1px solid transparent;
-    border-radius: 20px;
-    background-color: rgba(241, 239, 239, 0.52);
-    padding: 25px;
-    margin: 20px;
 }
-
 
 .chi-sono h2 {
 
